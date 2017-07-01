@@ -1,0 +1,80 @@
+			.main {
+				margin: 20px 0 0;
+				height: 2000px;
+			}
+			.main .index {
+				border: 2px solid #ebe6e1;
+				float: left;
+				background: #FFFFFF;	
+			}
+			.main .index>div {
+				position: relative;
+				box-sizing: border-box;
+				height: 94px;
+				width: 236px;
+				border-bottom: 1px solid #ebe6e1;
+			
+				padding: 10px 15px;
+				background: #FFFFFF;
+			
+			}
+			.main .index div.subs{
+				border-bottom: none;
+				
+			}
+			.main .index div.subs .more{
+				padding:33px 10px 11px;
+				
+			}
+			
+			.main .index div.more {
+				width: 210px;
+				position: absolute;
+				padding:33px 10px 10px;
+				background: #fff;
+				border: 2px solid #ebe6e1;
+				border-left: 0;
+				display: none;
+				left: 236px;
+				top: -2px;
+				z-index: 1;	
+			}
+			
+			
+			.main .index div p {
+				line-height: 25px;
+				color: #655
+			}
+			
+			.main .index div span {
+				padding: 0 11px;
+			}
+			
+			.main .banner{
+				
+				float: right;
+				position: relative;
+				width: 720px;
+				height: 380px;
+			}		
+			.main .banner ul li {
+				position: absolute;
+			}
+			.main .banner p.banner-index{
+				position: absolute;
+				margin: 0;
+				right: 20px;
+				bottom: 20px;
+				
+				
+			}
+			.main .banner p.banner-index span{
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				border-radius: 5px;
+				background: rgba(255,255,255,0.5);
+				margin-left: 10px;
+			
+			}
+			

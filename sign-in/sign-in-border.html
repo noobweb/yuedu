@@ -1,0 +1,198 @@
+
+		<style type="text/css">
+			#sign-in-border {
+				margin: 100px auto;
+				width: 530px;
+				height: 330px;
+				border: 1px solid #DCDCDC;
+				border-radius: 5px;
+				box-shadow: 0 0 4px #fff;
+				background: #fff;
+			}
+			
+			#sign-in-border .header {
+				height: 47px;
+				line-height: 47px;
+				font-size: 1.5em;
+				padding-left: 20px;
+				background: linear-gradient(to top,#efefef,#fefefe);
+			}
+			#sign-in-border .header h1{
+				display:inline-block
+			}
+			#close{
+				margin: 10px 20px;
+				display: inline-block;
+				float: right;
+				width: 20px;
+				height: 20px;
+				background: url(img/index3.png);
+				background-position: 17px -547px;
+				background-size: 400px 800px;
+				
+				
+			}
+			
+			#sign-in-border .plan {
+				padding: 30px 40px;
+				
+			}
+			#sign-in-border .plan:after{
+				display: block;
+				content: "";
+				visibility: hidden;
+				clear: both;
+			}
+			
+			#sign-in-border .left {
+				float: left;
+				border-right: 1px dashed #DCDCDC;
+			}
+			
+			#sign-in-border .left input {
+				border: 1px solid #DCDCDC;
+				margin: 0 40px 15px 0;
+				padding: 5px;
+				width: 200px;
+			}
+			
+			#sign-in-border .left .loading {
+				width: 202px;
+				height: 46px;
+				margin: 20px 0;
+				text-align: center;
+				line-height: 46px;
+				font-size: 1.5em;
+				font-weight: bold;
+				letter-spacing: 1em;
+				color: #FFFFFF;
+				background: #ca5252;
+			}
+			
+			#sign-in-border .left .loading:hover {
+				background: #e66363;
+				color: #edc8c8;
+			}
+			
+			#sign-in-border .left span.check {
+				display: inline-block;
+				vertical-align: middle;
+				width: 15px;
+				height: 15px;
+				border: 1px solid #444;
+				background-image: url(img/sprite.png);
+				
+				
+			}
+			#sign-in-border .left span.check:focus,
+			#sign-in-border .left span.check:active{
+				background-size: 225px 675px;
+				background-position: 67px -169px ;
+			}
+			
+			#sign-in-border .right {
+				float: right;
+			}
+			
+			
+			#sign-in-border .right ul li {
+				width: 125px;
+				height: 37px;
+				padding-left: 20px;
+				height: 36px;
+				line-height: 36px;
+				margin: 10px 0 10px 20px;
+				border: 1px solid #DCDCDC;
+				border-radius: 5px;
+				background: linear-gradient(to top,#cfcfcf,#fefefe);
+			}
+			#sign-in-border .right ul li:hover{
+				background: linear-gradient(to bottom,#cfcfcf,#fefefe);
+			}
+			
+			#sign-in-border .right ul li span {
+				display: inline-block;
+				margin-right: 5px;
+				width: 21px;
+				height: 21px;
+				border-radius: 10px;
+				vertical-align: middle;
+				background: url(img/loading.png);
+			}
+			#sign-in-border .right span.netease {
+				background-position: 201px 1px;
+			}
+			#sign-in-border .right span.call {
+				background-position: 170px 0px;
+			}
+			
+			#sign-in-border .right span.sina {
+				background-position: 140px 0px;
+			}
+			
+			#sign-in-border .right span.wechat {
+				background-position: 84px 0px;
+			}
+			
+			#sign-in-border .right span.qq {
+				background-position: 113px 0px;
+			}
+		</style>
+	
+		<div id="sign-in-border">
+			<div class="header">
+				<h1>网易邮箱登录</h1>
+				<a id="close" href=""></a>
+			</div>
+			<div class="plan">
+				<div class="left">
+					<div class="user">
+						<input type="text" placeholder="用户名" name="" id="" value="" />
+					</div>
+					<div class="password">
+						<input type="password" placeholder="密码" name="" id="" value="" />
+					</div>
+					<div class="code">
+						<input type="text" placeholder="验证码" name="" id="" value="" />
+					</div>
+					<div class="loading">
+						登录
+					</div>
+					<div class="other">
+						<p>
+							<span class="check"></span>
+							<span><a href="">十天免登录</a></span>
+							<span>|</span>
+							<span><a href="">忘记密码?</a></span>
+							<span><a href="">去注册</a></span>
+						</p>
+					</div>
+
+				</div>
+				<div class="right">
+					<h2>其他方式</h2>
+					<ul>
+						<li >
+							<a href=""><span class="netease"></span >网易邮箱</a>
+							
+						</li>
+						<li>
+							<a href=""><span class="call"></span> 手机号</a>
+						</li>
+						<li>
+							<a href=""><span class="sina"></span>新浪微博</a>
+						</li>
+						<li>
+							<a href=""><span class="qq"></span>腾讯微博</a>
+						</li>
+						<li>
+							<a href=""><span class="wechat"></span >微信</a>
+							
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	

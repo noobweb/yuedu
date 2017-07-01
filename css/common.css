@@ -1,0 +1,18 @@
+body{
+	color: #333;
+	font: 12px/1.5 "Helvetica Neue",Helvetica,tahoma,Arial,\5FAE\8F6F\96C5\9ED1;
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+.container:after{
+	content: "";
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+a:hover,a.active{
+	color: #c9483c;
+}
+
