@@ -3,7 +3,7 @@ $(function() {
 
 	$('#sign-in').hover(function() {
 		if(!$('#sign-in-plan').length) {
-			$('#loading').load('sign-in/sign-in.html',{"time":new Date()});
+			$('#loading').load('sign-in/sign-in.html');
 		} else {
 			$('#sign-in-plan').show();
 		}
