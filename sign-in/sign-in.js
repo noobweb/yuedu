@@ -22,7 +22,7 @@ $(function() {
 	$('#loading').on('click', '#sign-in-plan li', function(event) {
 		//载入登录页面
 		var $this=this;
-		$('#BigScreen').load('sign-in/sign-in-border.html'},
+		$('#BigScreen').load('sign-in/sign-in-border.html',
 		function(){
 		if($this.className=="call"){
 			
