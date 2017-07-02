@@ -42,7 +42,7 @@ $(function() {
 			$('#sign-in-border .wechat').closest('li').css('display','none');
 		}else if($this.className=="netease"){
 			
-			$('#sign-in-border h1').text('新浪微博登录');
+			$('#sign-in-border h1').text('网易邮箱登录');
 			$('#sign-in-border .netease').closest('li').css('display','none');
 		}else{
 			return;
